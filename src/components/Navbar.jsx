@@ -21,7 +21,7 @@ const Navbar = () => {
             </button>
             <ul className="dropdown-menu">
               {favorite.length === 0 ? 
-              <li className="ps-3">List is empty</li>
+              <li className="ps-3">The List Is Empty</li>
               :
               favorite.map((favorites) => (
               <li key={favorites.id}>
